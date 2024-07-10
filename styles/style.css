@@ -218,6 +218,85 @@ border-radius: 16px;
 .Target_container {
     width: 1140px;
 height: 460px;
-border: 2px solid red;
 margin-top: 151px;
+}
+
+.Target_content h2 {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.Target_content p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 24px;
+}
+
+.target_contanier {
+    display: flex;
+    gap: 24px;
+}
+.current_target {
+    padding: 30px;
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+    text-align: center;
+    margin-top: 48px;
+    justify-content: center;
+    width: 90%;
+}
+
+
+.current_target img {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 10px;
+}
+
+.target_title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.target_description {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.buttons {
+    text-align: left;
+}
+
+.taget_btn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    margin-top: 24px;
+    border: none;
 }
